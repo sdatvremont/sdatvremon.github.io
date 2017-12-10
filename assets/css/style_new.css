@@ -34,3 +34,13 @@
 @media all and (max-width: 500px) {
 .vid-info .acronym { display: none; }
 }
+
+@media (max-width: 1024px) {
+  .video-background {
+    background: url('../images/top-bg-mobile.jpg');
+    background-size: cover;: 
+  }
+  .video-foreground {
+    display: none;
+  }
+} 
