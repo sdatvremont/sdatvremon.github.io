@@ -35,6 +35,29 @@
 .vid-info .acronym { display: none; }
 }
 
+.main-page__title {
+/*  font-family: 'Pangolin', cursive;*/
+ /* font-family: 'Amatic SC', cursive;*/
+}
+
+.main-page__subtitle {
+  /*font-family: 'Press Start 2P', cursive;*/
+/*  font-family: 'Pangolin', cursive;*/
+}
+
+.main-page__logo {
+  font-family: 'Marck Script', cursive;
+  color: #fff!important;
+  font-size: 30px;
+  text-decoration: none;
+  width: 320px;
+}
+
+.main-page__logo:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
 @media (max-width: 1024px) {
   .video-background {
     background: url('../images/top-bg-mobile.jpg');
